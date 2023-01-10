@@ -34,10 +34,10 @@
             <div class="preco-total">R$ **</div>
           </li>
         </ul>
-        <button class="confirmar">
+        <button class="confirmar" onclick="enviarPedido()">
           Tudo certo, pode pedir!
         </button>
-        <button class="cancelar">Cancelar</button>
+        <button class="cancelar" onclick="cancelar()">Cancelar</button>
       </div>
     </div>
 
@@ -154,7 +154,7 @@
     </div>
 
     <div class="footer">
-      <a href="#" class="fazer-pedido">
+      <a href="#" class="fazer-pedido" disabled onclick="fazerPedido()">
         Selecione os 3 itens<br />para fechar o pedido
       </a>
     </div>
